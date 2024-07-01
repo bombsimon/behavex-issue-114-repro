@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "behavex-repro"
+version = "0.1.0"
+description = ""
+authors = ["Simon Sawert <simon@sawert.se>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+behave = "^1.2.6"
+behavex = "^3.2.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
